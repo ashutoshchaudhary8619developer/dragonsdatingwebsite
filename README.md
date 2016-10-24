@@ -1,28 +1,19 @@
-# dragons-dating
-Very simple implementation of the dating API of "Dragons of Mugloar"
+Code By ASHUTOSH CHAUDHARY
 
-API description: http://www.dragonsofmugloar.com/dating/api
+ashutosh.chaudhary.8619@gmail.com
 
-#Dating API
+Please open Index.html
 
-##Create a matchmaking web app using drawings provided for help
+You can either search from male or females
 
-First the user gets to choose if they want to see boy-dragons or girl-dragons
-After the choice is made, the user sees different profiles (picture, description) and gets to choose if they are interested or not
-The profiles are provided for you through the API
-The “matches” (both parties being interested) also need to be visible for the user
-If you are happy with your creation do the following:
+to search from males click on 
 
+Search Males
 
-##Get random profile
-```
-GET http://www.dragonsofmugloar.com/dating/api/profile/random?gender=girl
-```
-Will get random profile of specified gender (boy/girl). If gender is unspecified it will provide random profile of any gender.
+otherwise for females click on search Females
 
-##Get profile by ID
-```
-GET http://www.dragonsofmugloar.com/dating/api/profile/125124
-```
+Send Interests to them
 
-Will get profile by ID specified.
+Upon success You will get an alert as well a very big message
+
+that you are a match with particular Dragon.
